@@ -1,0 +1,24 @@
+// Container
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+// Body Locked
+body {
+    &.locked {
+        overflow: hidden;
+    }
+}
+
+// Animations
+// Fade
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
