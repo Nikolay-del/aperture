@@ -1,0 +1,80 @@
+.what-we-do {
+  padding: 113px 16px 100px 16px;
+}
+
+.what-we-do__heading {
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.what-we-do__description {
+  color: $gray;
+  text-align: center;
+  font-size: 23px;
+  line-height: 30px;
+  margin-bottom: 42px;
+}
+
+.what-we-do__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.what-we-do__item {
+  padding: 0 45px 30px 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-end;
+
+  &:first-child {
+    background-image: url("../img/product-photography-bg.webp");
+  }
+
+  &:nth-child(2) {
+    background-image: url("../img/architecture-photography-bg.webp");
+  }
+
+  &:nth-child(3) {
+    background-image: url("../img/drone-photography-bg.webp");
+  }
+
+  &:nth-child(4) {
+    background-image: url("../img/wildlife-photography-bg.webp");
+  }
+}
+
+.what-we-do__name {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.what-we-do__paragraph {
+  color: $gray;
+  margin-bottom: 17px;
+}
+
+.what-we-do__read-more {
+  padding: 11px 11px 11px 46px;
+  background: $white;
+  color: $black;
+  position: relative;
+  border-radius: 14px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url("../img/icons/button-shape.svg") no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+  }
+}

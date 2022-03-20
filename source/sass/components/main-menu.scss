@@ -1,0 +1,25 @@
+.main-menu {
+}
+
+.main-menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu__item {
+  &:last-child .main-menu__link {
+    background: $white;
+    color: $black;
+    border-radius: 14px;
+    padding: 11px 20px;
+    margin-left: 16px;
+  }
+}
+
+.main-menu__link {
+  color: $white;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 16px;
+  display: block;
+}

@@ -1,0 +1,26 @@
+.page__body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  background: $black;
+  color: $white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 120px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0 80px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 0 32px;
+  }
+}

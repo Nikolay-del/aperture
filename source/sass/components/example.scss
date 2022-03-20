@@ -1,0 +1,27 @@
+.example {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+
+  &--fuji {
+    background: url("../img/fuji-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+}
+
+.example__container {
+  margin-right: 60px;
+  width: 21%;
+}
+
+.example__heading {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.example__paragraph {
+  color: $gray;
+  display: block;
+}
