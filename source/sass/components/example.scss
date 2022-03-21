@@ -3,11 +3,17 @@
   position: relative;
   align-items: center;
   justify-content: flex-end;
+  background-size: cover;
+  height: 600px;
 
   &--fuji {
     background: url("../img/fuji-bg.jpg") no-repeat;
     background-size: cover;
-    height: 600px;
+  }
+
+  &--monstera-leafs {
+    background: url("../img/monstera-leafs.jpg") no-repeat;
+    background-size: cover;
   }
 }
 
