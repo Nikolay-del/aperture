@@ -1,0 +1,52 @@
+.tools {
+  position: relative;
+  background: url("../img/tools-bg.jpg") no-repeat right;
+  background-size: 50%;
+  padding-top: 173px;
+  padding-bottom: 153px;
+}
+
+.tools__container {
+  margin-left: 100px;
+  width: 36%;
+}
+
+.tools__description {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $gray;
+  margin-bottom: 6px;
+}
+
+.tools__heading {
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 14px;
+}
+
+.tools__paragraph {
+  color: $white;
+  margin-bottom: 20px;
+}
+
+.tools__button {
+  color: $black;
+  background: $white;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  padding: 11px 10px 11px 42px;
+  border-radius: 14px;
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url("../img/icons/button-shape.svg") no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+  }
+}
