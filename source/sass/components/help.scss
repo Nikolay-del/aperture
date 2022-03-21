@@ -1,0 +1,41 @@
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 113px;
+  padding-bottom: 100px;
+}
+
+.help__heading {
+  width: 40%;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.help__description {
+  margin-bottom: 22px;
+  color: $gray;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.help__button {
+  color: $black;
+  background: $white;
+  padding: 11px 10px 11px 42px;
+  border-radius: 14px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url("../img/icons/button-shape.svg") no-repeat;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
