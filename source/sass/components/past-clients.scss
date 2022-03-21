@@ -1,0 +1,29 @@
+.past-clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+
+.past-clients__heading {
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.past-clients__description {
+  font-size: 24px;
+  line-height: 30px;
+  color: $gray;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.past-clients__list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 109px;
+  align-items: center;
+}
